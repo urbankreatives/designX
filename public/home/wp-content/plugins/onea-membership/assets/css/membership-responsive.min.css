@@ -1,0 +1,38 @@
+textarea {
+    padding: 13px 25px !important;
+    margin-top: 10px !important;
+    font-size: 10px !important;
+    text-transform: none !important;
+    letter-spacing: .16em !important;
+    font-weight: 400 !important
+}
+
+@media only screen and (max-width:768px) {
+    .page-template-user-dashboard .eltdf-membership-dashboard-nav-holder {
+        width: 100%;
+        float: none
+    }
+    .page-template-user-dashboard .eltdf-membership-dashboard-nav-holder .eltdf-membership-dashboard-nav {
+        display: block
+    }
+    .page-template-user-dashboard .eltdf-membership-dashboard-nav-holder .eltdf-membership-dashboard-nav li {
+        display: block
+    }
+    .page-template-user-dashboard .eltdf-membership-dashboard-nav-holder .eltdf-membership-dashboard-nav li a {
+        padding: 15px 0;
+        text-align: left
+    }
+    .page-template-user-dashboard .eltdf-membership-dashboard-nav-holder .eltdf-membership-dashboard-nav li a .eltdf-dash-icon {
+        min-width: 50px;
+        text-align: center;
+        font-size: 25px;
+        display: inline-block;
+        padding-bottom: 0;
+        vertical-align: middle
+    }
+    .page-template-user-dashboard .eltdf-membership-dashboard-content-holder {
+        width: 100%;
+        float: none;
+        padding: 0
+    }
+}
